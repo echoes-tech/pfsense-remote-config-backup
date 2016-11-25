@@ -12,7 +12,7 @@
     * [Beginning with](#beginning-with)
 4. [Usage - Configuration options and additional functionality](#usage)
 5. [Limitations - OS compatibility, etc.](#limitations)
-6. [Development - Guide for contributing to the module](#development)
+6. [Development - Guide for contributing to these scripts](#development)
 7. [Contributors](#contributors)
 
 ## Overview
