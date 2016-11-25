@@ -7,9 +7,9 @@
 
 1. [Overview](#overview)
 2. [Scripts Description - What the scripts do and why they are useful](#scripts-description)
-3. [Setup - The basics of getting started with](#setup)
+3. [Setup - The basics of getting started with these scripts](#setup)
     * [Setup requirements](#setup-requirements)
-    * [Beginning with](#beginning-with)
+    * [Beginning with these scripts](#beginning-with)
 4. [Usage - Configuration options and additional functionality](#usage)
 5. [Limitations - OS compatibility, etc.](#limitations)
 6. [Development - Guide for contributing to these scripts](#development)
@@ -21,7 +21,7 @@ Shell scripts for pfSense remote config backup.
 
 ## Scripts Description
 
-These scripts backup [pfSense](https://pfsense.org/) configuration remotely.
+These scripts backup remotely [pfSense](https://pfsense.org/) configuration.
 
 ## Setup
 
@@ -30,9 +30,9 @@ These scripts backup [pfSense](https://pfsense.org/) configuration remotely.
 * A Unix shell
 * [Wget](https://www.gnu.org/software/wget/)
 
-#### Beginning with
+#### Beginning with these scripts
 
-Copy one of the following script in the folder `/usr/local/bin` with the name `backup-pfsense.sh`.
+Copy one of the following scripts in the folder `/usr/local/bin` with the name `backup-pfsense.sh`.
 
 ##### pfSense 2.2.6 and Later
 
