@@ -32,7 +32,9 @@ These scripts backup remotely [pfSense](https://pfsense.org/) configuration.
 
 #### Beginning with these scripts
 
-Copy one of the following scripts in the folder `/usr/local/bin` with the name `backup-pfsense.sh`.
+1. `mkdir -p /var/backups/pfsense`
+1. Copy one of the following scripts in the folder `/usr/local/bin` with the name `backup-pfsense.sh`.
+1. [optional] Edit script to change variables `USER` and `PASSWORD`
 
 ##### pfSense 2.2.6 and Later
 
@@ -63,7 +65,7 @@ $Conf{RsyncClientCmd} = '$rsyncPath $argList+';
 $Conf{RsyncClientRestoreCmd} = '$rsyncPath $argList+';
 $Conf{BackupFilesOnly} = {
   '/var/backups/pfsense' => [
-    'config-$host*.xml'
+    'config-*.xml'
   ]
 };
 ```
